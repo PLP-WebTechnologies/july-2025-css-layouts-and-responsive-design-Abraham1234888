@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Designs</title>
+    <link rel="stylesheet" href="./styles.css">
+
+
+    <style>
+    .grid-layout{
+        display: grid;
+        grid-template-areas: 
+                  "header header header"
+                  "nav main aside"
+                  "footer footer footer";
+        grid-template-columns: 1fr 2fr 1fr;   
+        grid-template-rows: auto 1fr auto;   
+        height: 100vh;    
+  }
+
+  header{
+    grid-area: header;
+    background-color: blueviolet;
+    text-align: center;
+    width: auto;
+    padding: 50px;
+  }
+
+  nav{
+    grid-area: nav;
+    background-color: lightgreen;
+  }
+
+  main{
+    grid-area: main;
+    background-color: rgb(7, 7, 71);
+  }
+
+  aside{
+    grid-area: aside;
+    background-color: rgb(81, 107, 133);
+    color: black;
+  }
+
+  footer{
+    grid-area: footer;
+    background-color: aqua;
+    text-align: center;
+    color: black;
+    padding: 50px;
+  }
+
+</style>
+
+
+</head>
+<body>
+    <style>
+        body{
+            font-size: 18px;
+            background-color: antiquewhite;
+        }
+
+        @media(max-width: 600px) {
+            body{
+                font-size: 12px;
+                background-color: rgb(51, 37, 2);
+                color: antiquewhite;
+            }
+        }
+
+        img{
+            max-width: 50%;
+            height: auto;
+        }
+
+ </style>
+
+
+<body>
+    <div class="grid-layout">
+        <header>Web site looks really great now!</header>
+        <nav>A BRAND NEW START FOR ME.</nav>
+        <main>Every day i get better at this,if i pay closer attention,who knows what more i can achieve
+            in the coming days.
+        </main>
+        <sidebar>Sidebar</sidebar>
+        <footer>&Ccirc;2025 Biobaragha JOHN</footer>
+    </div>
+</body>
+
+
+<div class="container">
+    <h1>Web Designs for 21st Generation</h1>
+    <p>My web design skills are truly improving with time in practice. 
+        it means i will have to invest more time to practice.
+    </p>
+    </div>
+
+    <div id="box">
+        <p>I am a faithful witness of the gospel of christ in the last days. We are able ministers
+        of the new testament and of the old. Everything about the new stems from the old
+        and draws its meaning and significant from the Spirit of life.
+        </p>
+    </div>
+
+     <div class="containera">
+    <h2>Web Designs for 21st Generation</h2>
+    <p1>My web design skills are truly improving with time in practice. 
+        it means i will have to invest more time to practice. Responsive web Designs
+        are truly beautiful bit of stuff. They make it easy for developers to cater to the 
+        needs of various screen sizes; thereby making web development process very intresting
+        and intrigingly flexible. In the mean time lets get going with responsive web designs 
+        using percentages rather than fixed units.
+    </p1>
+    </div>
+
+    <div class="box">
+    <h2>Web Development Made Easy with AI Tools</h2>
+    <p1>My web design skills are truly improving with time in practice. 
+        it means i will have to invest more time to practice. Responsive web Designs
+        are truly beautiful bit of stuff. They make it easy for developers to cater to the 
+        needs of various screen sizes; thereby making web development process very intresting
+        and intrigingly flexible. In the mean time lets get going with responsive web designs 
+        using percentages rather than fixed units.
+    </p1>
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item">I AM TRULY MAKING PROGRESS WITH THIS. ONE STEP AT A TIME,WE GO!</div>
+        <div class="flex-item">THESE BOXES LOOK REALLY AMAZING</div>
+        <div class="flex-item">I AM LEARNING A LOT LATELY. MANY THANKS TO MY INSTRUCTORS.</div>
+</div>
+
+
+</body>
+</html>
